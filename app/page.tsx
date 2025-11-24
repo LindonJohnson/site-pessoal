@@ -14,6 +14,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 import { ArrowRight } from "lucide-react";
+import { esteregg } from "./esteregg";
+
 
 export default function LinktreePage() {
   const links = [
@@ -21,13 +23,13 @@ export default function LinktreePage() {
       icons: icons.User,
       title: "Portifólio",
       description: "Conheça minha história e trajetória",
-      href: "/app/not-found",
+      href: "/portifolio",
     },
     {
       icons: icons.BrainCircuit,
       title: "Blog",
       description: "Receba insights sobre IA e tecnologia",
-      href: "/app/not-found",
+      href: "/blog",
     },
     // {
     //   icons: icons.Podcast,
@@ -211,3 +213,8 @@ export default function LinktreePage() {
     </div>
   );
 }
+
+
+console.log(esteregg())
+
+

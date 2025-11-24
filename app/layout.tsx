@@ -5,8 +5,8 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Lindoneveloper',
-  description: 'Created by lindoneveloper',
+  title: 'LindonDeveloper',
+  description: 'Created by lindonDeveloper',
   generator: '#',
   icons: {
     icon: '/cerebro.ico',
@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {children}
         <Analytics />

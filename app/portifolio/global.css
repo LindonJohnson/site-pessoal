@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+@theme {
+    /*breakpoints*/
+    --breakpoint-sm: 648px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1130px;
+    --breakpoint-2xl:1520px;
+
+        /*colors*/
+    --color-primary: #0d091a;
+}
+
+
