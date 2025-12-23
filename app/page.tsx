@@ -23,7 +23,7 @@ export default function LinktreePage() {
       icons: icons.User,
       title: "Portifólio",
       description: "Conheça minha história e trajetória",
-      href: "/portifolio",
+      href: "https://portifolio-gold-xi-76.vercel.app/",
     },
     {
       icons: icons.BrainCircuit,
